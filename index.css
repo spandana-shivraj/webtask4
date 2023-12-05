@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#header{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(241, 238, 238);
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-family:sans-serif;
+    padding-left: 25rem;
+    padding-top: 1.5rem;
+}
+:root{
+    --dp:flex;
+    --jstfy-cntnt:space-between;
+    --bgcolor:red;
+    --clr:white;
+    --psn:absolute;
+}
+.navbar{
+    display:var(--dp);
+    justify-content: var(--jstfy-cntnt);
+}
+
+img[alt="air"]{
+    height: 2rem;
+    position: absolute;
+    top: 5.5rem;
+    left: 2rem;
+}
+
+#flex1{
+    height: 3rem;
+    width: 20rem;
+  position: absolute;
+  left: 31rem;
+  top: 6rem;
+  display: var(--dp);
+  justify-content: var(--jstfy-cntnt);
+  border: solid rgb(243, 239, 239);
+  background-color: rgb(248, 244, 244);
+  box-shadow:3px 1px 3px 2px rgb(230, 221, 221),1px 2px 3px 1px rgb(233, 229, 229);
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+#flex1 i{
+    color: var(--clr);
+    height: 28px;
+    width: 10%;
+    border-radius: 100%;
+    background-color: var(--bgcolor);
+    padding-top: 0.6rem;
+    padding-left: 0.6rem;
+    font-size: 0.8rem;
+}
+
+#flex2{
+   margin-left: 60rem;
+   margin-top: 1.5rem;
+}
+
+#flex2 button{
+    width:10rem;
+    height: 2.2rem;
+    font-size: 0.9rem;
+    border-radius: 1rem;
+    border: none;
+    background-color:white;
+}
+
+#flex2 button:hover{
+    background-color: rgb(250, 246, 246);
+}
+
+#round{
+   position:var(--psn);
+   left: 70rem;
+   top: 6.3rem;
+   border-radius: 50%;
+}
+
+#round:hover{
+    background-color: rgb(211, 146, 146);
+}
+
+.flex3{
+    height: 50px;
+    width: 7%;
+    border: 0.1px solid rgb(199, 176, 176);
+    margin-right: 60px;
+    margin-top: 20px;
+    border-radius: 2rem;
+}
+
+img[alt="person"]{
+    padding-left: 50px;
+    padding-top: 8px;
+}
+
+.flex3 i{
+    position: absolute;
+    left: 75.4rem;
+    top: 6.6rem;
+}
+
+.flex3:hover{
+    box-shadow:-10px -10px 20px rgb(247, 245, 245),0px 2px 2px 1px rgb(22, 9, 9);
+}
+
+#bar{
+    content: "";
+    border-bottom:0.1rem solid rgb(214, 198, 198);
+    margin-top: 2rem;
+}
+ #images{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: gray;
+    margin-top: 2rem;
+} 
+
+p{
+    font-size: 0.8rem;
+}
+
+img[alt="photo"]{
+    height: 24px;
+    color: rgb(172, 166, 166);
+}
+
+.jpg-1{
+    padding-left: 5rem;
+}
+
+#arrow{
+    position: absolute;
+    left: 55rem;
+    top: 13rem;
+}
+
+#filter{
+    height: 50px;
+    width: 7%;
+    border: 0.1px solid rgb(199, 176, 176);
+    border-radius: 1rem;
+    position:absolute;
+    left: 59rem;
+    top: 12.4rem;
+}
+
+#let{
+    position:absolute;
+    left: 3rem;
+    font-size: 1rem;
+    top: 1rem;
+}
+
+#filter svg{
+    position:absolute;
+    left: 1rem;
+    top: 1rem;
+}
+
+#display{
+    height: 50px;
+    width: 17%;
+    border: 0.1px solid rgb(199, 176, 176);
+    border-radius: 1rem;
+    position:absolute;
+    left: 67rem;
+    top: 12.4rem;
+}
+
+#togg{
+    height: 100px;
+    position: absolute;
+    left: 12rem;
+    top: 0.9rem;
+}
+
+#tax{
+    font-size: 1rem;
+    position: absolute;
+    left: 1rem;
+    top: 0.9rem;
+}
+.navbar-3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    padding-left: 1.5rem;
+    background-attachment: fixed;
+}
+
+img[alt="demo"]{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+#nor{
+    display: flex;
+    justify-content: space-between;
+}
+
+span{
+    font-weight: 600;
+    font-family:sans-serif;
+}
+
+#nor p{
+    font-size: 1rem;
+}
+
+.jan{
+    color: rgb(134, 125, 125);
+}
+
+#para-z p{
+    font-size: 1rem;
+}
+
+#suff{
+    display: flex;
+    gap: 11.3rem;
+}
+
+#suff p{
+    font-size: 1rem;
+}
+#ketter{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ketter p{
+    font-size: 1rem;
+}
+#newton{
+    display: flex;
+    justify-content: space-between;
+}
+
+#newton p{
+    font-size: 1rem;
+}
+.lfooter{
+    display: flex;
+    justify-content:space-between;
+    line-height: 2rem;
+    list-style-type: none;
+    padding-right: 7rem;
+    padding-left: 2rem;
+    position: relative;
+    top: 3rem;
+}
+
+ol li{
+    position: relative;
+    left: 1rem;
+    gap: 5rem;
+    font-size: 1.1rem;
+    color: rgb(94, 87, 87);
+}
+
+.shape{
+    font-weight: 900;
+}
